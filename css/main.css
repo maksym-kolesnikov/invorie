@@ -4,4 +4,46 @@
 body {
     font-family: "Gilroy", sans-serif;
     font-weight:500;
+
+}
+.container {
+    max-width: 1750;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 24px;
+    border: 1px solid #114455;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 800px;
+    color: #114455;
+}
+.header {
+    min-height: 100vh;
+    background-color:#E5E5E5
+    background-image url("./../imig/header/header-bg.jpg")
+    background-sizecover
+    background-positioncenter center
+}
+
+.header__top {
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 118px;
+}
+.link {
+    font-size: 20px;
+    font-weight: 800px;
+    color: #114455;
 }
