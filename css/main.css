@@ -1,5 +1,5 @@
-@import "./reset css"; 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
+@import "./reset css";
+@import url(./fonts/gilroy/stylesheet.css);
 
 body {
     font-family: "Gilroy", sans-serif;
@@ -24,12 +24,13 @@ body {
 .header {
     min-height: 100vh;
     background-color:#E5E5E5
-    background-image url("./../imig/header/header-bg.jpg")
-    background-sizecover
-    background-positioncenter center
+    background-image:url("./../imig/header/header-bg.jpg");
+    background-sizecover:#E5E5E5;
+    background-positioncenter:center;
 }
 
 .header__top {
+    margin-bottom: 126px;
     padding-top: 44px;
     padding-bottom: 44px;
 }
@@ -47,3 +48,22 @@ body {
     font-weight: 800px;
     color: #114455;
 }
+
+.header_content {
+    max-width: 1060px;
+}
+
+.header_title {
+    max-width: 734px;
+    font-size: 80px;
+    font-weight: 800;
+    color: #114455;
+
+}
+.header_text {
+}
+.header_btn {
+}
+.btn {
+}
+
