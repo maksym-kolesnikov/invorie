@@ -40,7 +40,7 @@ body {
     position: absolute;
     width: 32px;
     height: 32px;
-    background-image: url("./../css/fonts/imig/icons/Arrow\ Right\ Black.svg");
+    background-image: url("./../img/icons/arrow-right-black.svg");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -61,7 +61,7 @@ color: #FFF;
 }
 
 .btn:hover::after{
-    background-image: url("./../css/fonts/imig/icons/Arrow\ Right\ white\ .svg");
+    background-image: url("./../img/icons/arrow-right-white\ .svg");
 }
 
     .btn--big {
@@ -80,7 +80,7 @@ color: #FFF;
 
 
     .btn--dark::after{
-        background-image: url(./../img/icons/Arrow\ Right\ white\ .svg)
+        background-image: url(./../img/icons/arrow-right-white\ .svg);
 
     }
 
