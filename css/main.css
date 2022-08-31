@@ -88,8 +88,8 @@ color: #FFF;
 
 .header {
     min-height: 100vh;
-    background-color:#E5E5E5
-    background-image:url("./../imig/header/header-bg.jpg");
+    background-color:#E5E5E5;
+    background-image: url(./fonts/imig/Header/header-bg.jpg);
     background-sizecover:#E5E5E5;
     background-positioncenter:center;
 }
