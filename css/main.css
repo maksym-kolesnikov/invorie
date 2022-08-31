@@ -61,7 +61,7 @@ color: #FFF;
 }
 
 .btn:hover::after{
-    background-image: url("./../img/icons/arrow-right-white\ .svg");
+    background-image: url("./../img/icons/arrow-right-white.svg");
 }
 
     .btn--big {
@@ -80,7 +80,7 @@ color: #FFF;
 
 
     .btn--dark::after{
-        background-image: url(./../img/icons/arrow-right-white\ .svg);
+        background-image: url(./../img/icons/arrow-right-white.svg);
 
     }
 
