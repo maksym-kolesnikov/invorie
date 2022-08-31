@@ -23,7 +23,7 @@ body {
 
 .btn {
     position: relative;
-
+    
     display: inline-block;
     padding: 10px 24px;
     padding-right: 72px;
@@ -190,6 +190,4 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.slider img {
-
-}
+.slider img {}
