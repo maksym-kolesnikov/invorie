@@ -83,13 +83,10 @@ body {
 
 }
 
-
 .btn--dark::after {
     background-image: url("./../img/icons/arrow-right-white.svg");
 
 }
-
-
 
 .header {
     min-height: 100vh;
@@ -172,8 +169,6 @@ body {
 .slider {}
 
 .slider__item {}
-
-
 
 .slide {
     position: relative;
