@@ -1,4 +1,4 @@
-@import "./reset css";
+@import "./reset.css";
 @import url(./fonts/gilroy/stylesheet.css);
 
 body {
@@ -80,7 +80,7 @@ color: #FFF;
 
 
     .btn--dark::after{
-        background-image: url("./../css/fonts/imig/icons/Arrow\ Right\ white\ .svg");
+        background-image: url(./../img/icons/Arrow\ Right\ white\ .svg)
 
     }
 
@@ -146,7 +146,7 @@ color: #FFF;
 }
     .title {
         font-size: 80px;
-        font-weight: 800px;
+        font-weight: 800;
         color: #1f1f1f;
     }
 .text {
@@ -178,8 +178,8 @@ color: #FFF;
     font-weight: 800;
 
     background: -webkit-linear-gradient(145deg,rgba(17,68,85,1) 80px 15%, rgba(255,255,255,1) 80px 15% );
-   - webkit-beckground-clip: text;
-   - webkit-text-fill-color:transparent;
+    -webkit-beckground-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 
 .slider img {
