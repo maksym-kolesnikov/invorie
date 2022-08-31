@@ -89,9 +89,9 @@ color: #FFF;
 .header {
     min-height: 100vh;
     background-color:#E5E5E5;
-    background-image: url(./fonts/imig/Header/header-bg.jpg);
-    background-sizecover:#E5E5E5;
-    background-positioncenter:center;
+    background-image: url(./../img/header/header-bg.jpg);
+    background-size: cover;
+    background-position:center center;
 }
 
 .header__top {
@@ -178,8 +178,8 @@ color: #FFF;
     font-weight: 800;
 
     background: -webkit-linear-gradient(145deg,rgba(17,68,85,1) 80px 15%, rgba(255,255,255,1) 80px 15% );
-   - webkit-beckground-clip: text
-   - webkit-text-fill-color:transparent
+   - webkit-beckground-clip: text;
+   - webkit-text-fill-color:transparent;
 }
 
 .slider img {
